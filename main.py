@@ -1,7 +1,7 @@
 import os
 import json
 
-with open("set-miner/online.json", "r", encoding='utf8') as file:
+with open("set-miner-on/online.json", "r", encoding='utf8') as file:
     text = file.read()
     loads = json.loads(text)
     pool = loads['pool']
@@ -14,7 +14,7 @@ POOL=pool
 WALLET=wallet
 PASSWORD=password
 
-with open("set-miner/offline.json", "r", encoding='utf8') as file:
+with open("set-miner-off/offline.json", "r", encoding='utf8') as file:
     text = file.read()
     loads = json.loads(text)    
     name = loads['name']
