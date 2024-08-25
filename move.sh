@@ -1,3 +1,3 @@
-mv ./set-miner-name-cpu-all/name-cpu-all.json ~/jk8180-multi-update/
-rm -rf set-miner-name-cpu-all
+mv ./set-miner-off/offline.json ~/jk8180-update/
+rm -rf set-miner-off
 ~/jk8180-update/moveback.sh
